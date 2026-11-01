@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+
+# ML artifacts (large files)
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+models/
+data/raw/
+mlruns/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.ipynb_checkpoints/
